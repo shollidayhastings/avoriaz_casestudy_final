@@ -1,0 +1,140 @@
+:root {
+    --font-sans-serif: Poppins, sans-serif;
+    --orange-light: #fdb273;
+    --gray: #56617a;
+    --blue-dark: #133a69;
+    --white: white;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*------container-----------*/
+
+.page__container {
+    display: grid;
+    grid-template-columns: 13rem minmax(0, 1fr);
+    grid-template-areas: "header main";
+    padding-top: 0;
+}
+
+/*----------sidebar----------*/
+
+.sidebar__nav-container {
+    display: block;
+    background-color: aliceblue;
+    border-right: 1px solid #b5b7b9;
+}
+
+.sidebar__nav-section {
+    display: block;
+    grid-area: nav;
+    margin: 1rem 0 0 1.33rem;
+}
+
+.page__header__container {
+    padding: 1rem;
+    position: static;
+    overflow-y: auto;
+    width: 18rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+.sidebar-nav__heading {
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+}
+
+.sidebar__nav-list {
+    font-family: var(--font-sans-serif);
+    font-size: .8rem;
+    font-weight: 200;
+    text-align: left;
+    line-height: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*-----sidebar nav links------*/
+
+a:link {
+    color: #133a69;
+    text-decoration: none;
+    list-style: none;
+    cursor: auto;
+}
+
+a:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fdb273;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
+
+/*----------------------------*/
+
+/*------MAIN SECTION---------*/
+
+.page__main-container {
+    grid-area: main;
+    padding: 1rem .3rem;
+    display: block;
+}
+
+.site-introh1 {
+    font-family: var(--font-sans-serif);
+    color: #56617a;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site-introh3 {
+    font-family: var(--font-sans-serif);
+    font-size: 1rem;
+    color: var(--gray);
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+/*-----LOGOS SECTION---------*/
+
+.section__logo {
+    font-family: var(--font-sans-serif);
+    font-weight: 200;
+    border-bottom: 1px solid #adb1b5;
+    color: #b6b8be;
+    padding: 0 15px;
+    margin: 20px;
+}
+
+.logos__elk-icon {
+    width: 20px;
+}
