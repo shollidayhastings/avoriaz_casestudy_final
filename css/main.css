@@ -107,21 +107,24 @@ a:active {
 
 .site-introh1 {
     font-family: var(--font-sans-serif);
-    color: #56617a;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 4rem;
+    color: #fdb273;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 2.8rem;
     text-align: center;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .site-introh3 {
     font-family: var(--font-sans-serif);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--gray);
+    padding: 1rem;
     font-weight: lighter;
     text-align: center;
-    line-height: 1.4rem;
+    line-height: 2rem;
+    margin: 0;
 }
 
 /*-----LOGOS SECTION---------*/
@@ -135,6 +138,63 @@ a:active {
     margin: 20px;
 }
 
-.logos__elk-icon {
-    width: 20px;
+.logo__elk-icon {
+    width: 10rem;
+}
+
+.logo__wordmark {
+    width: 20rem;
+    margin: 2rem;
+}
+
+
+/*-----COLORS SECTION-----*/
+
+.section__colors {
+    font-family: var(--font-sans-serif);
+    font-weight: 200;
+    border-bottom: 1px solid #adb1b5;
+    color: #b6b8be;
+    padding: 0 15px;
+    margin: 20px;
+}
+
+.colorblock__orange {
+    color: white;
+    width: 200px;
+    background-color: #fdb273;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+    display: inline-block;
+}
+
+.colorblock__gray {
+    color: white;
+    width: 200px;
+    background-color: #56617a;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+    display: inline-block;
+
+}
+
+.colorblock__blue {
+    color: white;
+    width: 200px;
+    background-color: #133a69;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+    display: inline-block;
+}
+
+.colorblock__text {
+    font-family: var(--font-sans-serif);
+    font-size: .8rem;
+    color: #b6b8be;
+    display: inline-block;
+    align-items: center;
+    padding: 0 7rem;
 }
