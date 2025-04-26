@@ -208,6 +208,40 @@ a:active {
     margin: 20px;
 }
 
+/*----screenshots of icons---------*/
+.section__screen-text {
+    font-family: var(--font-sans-serif);
+    color: #c2c5c6;
+    font-size: .9rem;
+    font-weight: 100;
+    margin: .2rem 2rem;
+    border-bottom: 1px solid #c2c5c6;
+}
+
+.icon__elk {
+    width: 75px;
+    margin: 1rem 0 0 2rem;
+}
+
+.icon__hand {
+    width: 70px;
+}
+
+.icon__main-nav1 {
+    width: 250px
+}
+
+.icon__main-nav {
+    width: 400px;
+}
+
+.icon__social-nav {
+    width: 400px;
+    margin: 0 0 0 2rem;
+}
+
+/*--------------remade icons---------------------*/
+
 .btn {
     background-color: white;
     color: rgb(45, 93, 112);
@@ -219,7 +253,7 @@ a:active {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    margin: 5px;
+    margin: 0 0 0 2rem;
 }
 
 .btn_bright {
@@ -293,6 +327,20 @@ a:active {
     margin: 5px;
 }
 
+.btn_nordic {
+    background-color: white;
+    color: rgb(45, 93, 112);
+    border: 2px solid lightgray;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+}
+
 .btn_skiing {
     background-color: white;
     color: rgb(45, 93, 112);
@@ -314,6 +362,20 @@ a:active {
     font-size: 18px;
     border-radius: 50%;
     padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn_mt {
+    background-color: white;
+    color: rgb(45, 93, 112);
+    border: 2px solid lightgray;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 17px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -433,6 +495,34 @@ a:active {
     margin: 5px;
 }
 
+.btn_mag {
+    background-color: white;
+    color: rgb(45, 93, 112);
+    border: 2px solid lightgray;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn_map {
+    background-color: white;
+    color: rgb(45, 93, 112);
+    border: 2px solid lightgray;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+}
+
 .btn_plus {
     background-color: white;
     color: rgb(45, 93, 112);
@@ -453,7 +543,7 @@ a:active {
     border: 2px solid lightgray;
     font-size: 18px;
     border-radius: 50%;
-    padding: 15px 18px;
+    padding: 15px 19px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -464,6 +554,13 @@ a:active {
 .btn_elk {
     width: 100px;
     display: inline-block;
+    margin: 0 0 0 2rem;
+}
+
+.btn_hand {
+    width: 100px;
+    display: inline-block;
+    margin: 0;
 }
 
 /*--------------BUTTONS SECTION--------*/
@@ -475,6 +572,22 @@ a:active {
     color: #b6b8be;
     padding: 0 15px;
     margin: 20px;
+}
+
+/*--------------Screenshots of buttons------*/
+
+.btn__orange {
+    width: 200px;
+    margin: 0 0 0 2rem;
+}
+
+.btn__blue {
+    width: 188px;
+    margin: 0 4rem;
+}
+
+.btn__blueout {
+    width: 300px;
 }
 
 .orange-snow {
@@ -510,8 +623,8 @@ a:active {
     color: #133a69;
     background: white;
     border: .5px solid #133a69;
-    padding: 20px 80px;
-    font-size: 16px;
+    padding: 20px 105px;
+    font-size: 13px;
     cursor: pointer;
     display: inline-block;
     margin: 2rem;
@@ -527,6 +640,25 @@ a:active {
     padding: 0 15px;
     margin: 20px;
 }
+
+/*---------screenshots of type-------------*/
+.type__features {
+    width: 900px;
+    display: block;
+    margin: 2rem;
+}
+
+.type__heading {
+    width: 200px;
+    margin: 1rem 2rem;
+}
+
+.type__body-text {
+    width: 400px;
+}
+
+
+/*---------------------*/
 
 .font_poppins {
     font-family: var(--font-sans-serif);
@@ -713,4 +845,206 @@ a:active {
     color: #b6b8be;
     padding: 0 15px;
     margin: 20px;
+}
+
+
+/*----------NAVIGATION SECTION----------*/
+
+.section__navigation {
+    font-family: var(--font-sans-serif);
+    font-weight: 200;
+    border-bottom: 1px solid #adb1b5;
+    color: #b6b8be;
+    padding: 0 15px;
+    margin: 20px;
+}
+
+.section__screen-text-title {
+    font-family: var(--font-sans-serif);
+    font-size: 16px;
+    font-weight: 300;
+    color: #adb1b5;
+    margin: 1rem 2rem;
+}
+
+/*----------screenshots of navigation------*/
+
+.nav__btn-lockup {
+    width: 240px;
+    margin: 1rem 2rem;
+}
+
+.nav__icon-lockup {
+    width: 200px;
+    margin: 1rem 2rem;
+}
+
+.nav__cookie-pop {
+    width: 300px;
+    margin: 1rem 2rem;
+}
+
+.nav__agenda-pop {
+    width: 300px;
+    margin: 1rem 2rem;
+}
+
+.header__white {
+    width: 900px;
+}
+
+.header__onback {
+    width: 900px;
+}
+
+/*-----------icon nav---------*/
+
+.nav__icon-lockup {
+    width: 100px;
+}
+
+.icon-btn_home {
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(45, 93, 112);
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.icon-btn_dot {
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(45, 93, 112);
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* BUTTON FEATURE LOCKUP*/
+
+.btn__screenshot {
+    border: 1px solid black;
+    margin: 2rem 5rem;
+    width: 250px
+}
+
+.btn__home-orange1 {
+    font-family: var(--font-sans-serif);
+    color: white;
+    background: #fdb273;
+    padding: 9px 70px;
+    font-size: 10px;
+    line-height: 5px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0 0 2rem;
+    position: relative;
+}
+
+.btn__home-text {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    line-height: 4px;
+
+}
+
+#btn__hotel-icon {
+    font-size: 1.2rem;
+    color: aqua;
+    position: absolute;
+    top: 4054px;
+    left: 270px;
+}
+
+.btn__home-textlg {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    line-height: 15px;
+}
+
+.btn__home-gray2 {
+    font-family: var(--font-sans-serif);
+    color: #133a69;
+    background: white;
+    padding: 10px 73px;
+    font-size: 10px;
+    line-height: 6px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 0 5rem;
+    position: relative;
+    margin: 0 0 0 2rem;
+}
+
+.btn__home-text-pass {
+    font-weight: 600;
+    font-size: 16px;
+    color: #133a69;
+    line-height: 4px;
+
+}
+
+#btn__card-icon {
+    font-size: 1.2rem;
+    color: #133a69;
+    position: absolute;
+    top: 4130px;
+    left: 270px;
+}
+
+#btn__arrow-card-icon {
+    font-size: 1.1rem;
+    color: #133a69;
+    position: absolute;
+    top: 4130px;
+    left: 450px;
+}
+
+.btn__home-blue3 {
+    font-family: var(--font-sans-serif);
+    color: white;
+    background: #133a69;
+    padding: 10px 61px;
+    font-size: 10px;
+    line-height: 2px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 0 5rem;
+    position: relative;
+    margin: 0 0 0 2rem;
+}
+
+#btn__map-icon {
+    font-size: 1.2rem;
+    color: aqua;
+    position: absolute;
+    top: 4208px;
+    left: 270px;
+}
+
+#btn__arrow-map-icon {
+    font-size: 1.1rem;
+    color: aqua;
+    position: absolute;
+    top: 4208px;
+    left: 450px;
 }
