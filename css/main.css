@@ -42,7 +42,7 @@ html {
 
 .page__header__container {
     padding: 1rem;
-    position: static;
+    position: sticky;
     overflow-y: auto;
     width: 18rem;
 }
