@@ -939,6 +939,10 @@ a:active {
     width: 250px
 }
 
+.btn__lockup-container {
+    position: relative;
+}
+
 .btn__home-orange1 {
     font-family: var(--font-sans-serif);
     color: white;
@@ -959,15 +963,14 @@ a:active {
     font-size: 15px;
     color: white;
     line-height: 4px;
-
 }
 
 #btn__hotel-icon {
     font-size: 1.2rem;
-    color: aqua;
+    color: white;
     position: absolute;
-    top: 4054px;
-    left: 270px;
+    top: 25px;
+    left: 20px;
 }
 
 .btn__home-textlg {
@@ -998,23 +1001,22 @@ a:active {
     font-size: 16px;
     color: #133a69;
     line-height: 4px;
-
 }
 
 #btn__card-icon {
     font-size: 1.2rem;
     color: #133a69;
     position: absolute;
-    top: 4130px;
-    left: 270px;
+    top: 28px;
+    left: 20px;
 }
 
 #btn__arrow-card-icon {
     font-size: 1.1rem;
     color: #133a69;
     position: absolute;
-    top: 4130px;
-    left: 450px;
+    top: 28px;
+    left: 200px;
 }
 
 .btn__home-blue3 {
@@ -1035,18 +1037,18 @@ a:active {
 
 #btn__map-icon {
     font-size: 1.2rem;
-    color: aqua;
+    color: white;
     position: absolute;
-    top: 4208px;
-    left: 270px;
+    top: 35px;
+    left: 20px;
 }
 
 #btn__arrow-map-icon {
     font-size: 1.1rem;
-    color: aqua;
+    color: white;
     position: absolute;
-    top: 4208px;
-    left: 450px;
+    top: 35px;
+    left: 200px;
 }
 
 
@@ -1241,4 +1243,157 @@ a:active {
     position: absolute;
     top: 290px;
     left: 10px;
+}
+
+/*-------------HEADER SECTION------------*/
+
+/* HEADER A */
+
+.header-imgs {
+    border: 1px solid black;
+    width: 800px;
+}
+
+.header-white {
+    width: 800px;
+}
+
+.header-photo {
+    width: 800px;
+}
+
+.logo-lockup {
+    width: 120px;
+    margin: 0;
+}
+
+.header_container {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.navbar-list-a {
+    font-family: var(--font-sans-serif);
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+.nav-extra {
+    font-size: 10px;
+}
+
+/* HEADER B */
+
+.header-b__container {
+    position: relative;
+}
+
+.header_hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_img {
+    width: 100%;
+}
+
+.logo-lockup {
+    margin: .5rem;
+}
+
+.navbar_hero-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar_hero-list-b {
+    font-family: var(--font-sans-serif);
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+/*Hero Nav Links*/
+
+a.nav-links:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.nav-links:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.nav-links:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.nav-links:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
+
+/*Hero Extras Nav Links*/
+
+a.navhero-extra:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.navhero-extras:active {
+    color: #fdb273;
+    font-weight: bolder;
 }
