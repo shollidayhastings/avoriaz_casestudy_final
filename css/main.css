@@ -1400,6 +1400,154 @@ a.navhero-extras:active {
 
 /*------------nav feature-------*/
 
+
+/*-------------Features Section--------*/
+
+/* Home page */
+
+.section__features {
+    font-family: var(--font-sans-serif);
+    font-weight: 200;
+    border-bottom: 1px solid #adb1b5;
+    color: #b6b8be;
+    padding: 0 15px;
+    margin: 20px;
+}
+
+
+.feature__home-screen1 {
+    width: 900px;
+    margin: 2rem;
+}
+
+.header_hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+.header_img {
+    width: 100%;
+}
+
+.logo-lockup {
+    margin: .5rem;
+}
+
+.navbar_hero-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+
+}
+
+.navbar_hero-list-b {
+    font-family: var(--font-sans-serif);
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+/*----pop ups on home page----*/
+.home__icon-popup_container {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+/*Hero Nav Links*/
+
+a.nav-links:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.nav-links:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.nav-links:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.nav-links:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
+
+/*Hero Extras Nav Links*/
+
+a.navhero-extra:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.navhero-extras:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
+
+
+/*---------------OPENING DAY SECTION-------*/
+
+.feature__1opening-container {
+    position: relative;
+}
+
+.feature__open1 {
+    width: 900px;
+    margin: 2rem;
+    position: absoute;
+    top: 0;
+    left: 0;
+}
+
+.opening-orange {
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    color: #fdb273;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.date-black {
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
 /*FEATURE 2*/
 
 .feature__screenimg2 {
@@ -1491,144 +1639,106 @@ a.navhero-extras:active {
     left: 800px;
 }
 
-/*-------------Features Section--------*/
+/* FEATURE 3*/
 
-/* Home page */
-
-
-
-.section__features {
-    font-family: var(--font-sans-serif);
-    font-weight: 200;
-    border-bottom: 1px solid #adb1b5;
-    color: #b6b8be;
-    padding: 0 15px;
-    margin: 20px;
-}
-
-
-.feature__home-screen1 {
-    width: 900px;
+.home__3mountain-container {
+    position: relative;
     margin: 2rem;
 }
 
-.header_hero-container {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 100%;
-    padding: 1rem;
-    position: relative;
-}
-
-.header_img {
-    width: 100%;
-}
-
-.logo-lockup {
-    margin: .5rem;
-}
-
-.navbar_hero-container {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    width: 100%;
-    padding: 1rem;
+.feature3__backgroundimage {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.navbar_hero-list-b {
-    font-family: var(--font-sans-serif);
-    color: white;
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 100%;
-    list-style: none;
-    text-decoration: none;
-    padding: 1rem;
-    margin: 0;
-}
-
-/*Hero Nav Links*/
-
-a.nav-links:link {
-    color: white;
-    text-decoration: none;
-}
-
-a.nav-links:visited {
-    color: white;
-    border-color: white;
-    text-decoration: none;
-}
-
-a.nav-links:hover {
-    color: #fdb273;
-    border-color: fdb273;
-    font-weight: bolder;
-}
-
-a.nav-links:active {
-    color: #fdb273;
-    font-weight: bolder;
-}
-
-/*Hero Extras Nav Links*/
-
-a.navhero-extra:link {
-    color: white;
-    text-decoration: none;
-}
-
-a.navhero-extra:visited {
-    color: white;
-    border-color: white;
-    text-decoration: none;
-}
-
-a.navhero-extra:hover {
-    color: #fdb273;
-    border-color: fdb273;
-    font-weight: bolder;
-}
-
-a.navhero-extras:active {
-    color: #fdb273;
-    font-weight: bolder;
-}
-
-/*---------------OPENING DAY SECTION-------*/
-
-.feature__1opening-container {
-    position: relative;
-}
-
-.feature__open1 {
-    width: 900px;
-    margin: 2rem;
-    position: absoute;
-    top: 0;
-    left: 0;
-}
-
-.opening-orange {
-    font-family: var(--font-sans-serif);
-    font-size: 1.3rem;
-    color: #fdb273;
-    text-align: center;
-    line-height: 2rem;
-    margin: 0;
-}
-
-.date-black {
-    font-family: var(--font-sans-serif);
-    font-size: 1.3rem;
+.feature3__headline {
     color: black;
+    font-size: 3.4rem;
+    font-weight: 700;
+    position: absolute;
+    top: 33rem;
+    left: 12rem;
+}
+
+.feature3__subline {
+    color: #fdb273;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 38rem;
+    left: 26rem;
+}
+
+.feature3__activities {
+    font-size: .5rem;
+    font-weight: 500;
+    writing-mode: sideways-lr;
+    position: absolute;
+    top: 40rem;
+    left: 5rem;
+}
+
+.feature3__line {
+    font-size: .6rem;
+    font-weight: 500;
+    writing-mode: sideways-lr;
+    position: absolute;
+    top: 45rem;
+    left: 4.5rem;
+}
+
+.feature3__btn_arrow {
+    background-color: white;
+    color: rgb(45, 93, 112);
+    border: 2px solid rgb(45, 93, 112);
+    border-radius: 50%;
+    padding: 10px 12px;
     text-align: center;
-    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: x-small;
+    position: absolute;
+    top: 52rem;
+    left: 4.5rem;
+}
+
+.feature3__mountainimg {
+    max-width: 450px;
+    position: absolute;
+    top: 42rem;
+    left: 10rem;
+}
+
+.icon-container {
+    position: absolute;
+    top: 48rem;
+    left: 36rem;
+}
+
+.icon__number {
+    font-size: .7rem;
+    color: #fdb273;
+    display: inline-block;
+    margin: 0 .3rem;
+}
+
+.icon__text {
+    font-size: .7rem;
+    color: #56617a;
+    display: inline-block;
+    margin: .3rem;
+}
+
+.feature3__orange-do {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 8px 30px;
+    font-size: 7px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 0 0 5px;
+    position: absolute;
 }
