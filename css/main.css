@@ -1048,3 +1048,197 @@ a:active {
     top: 4208px;
     left: 450px;
 }
+
+
+/*---COOKIE POP UP-----*/
+
+.hand__srcimg {
+    width: 350px;
+}
+
+
+.cookie__container {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #d1d3da;
+    width: 350px;
+    position: relative;
+    height: 330px;
+    margin: 3rem 2rem;
+}
+
+
+.cookie_bubble {
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid #d1d3da;
+    color: #999ca0;
+    border-radius: 15px;
+    padding: 8px;
+    width: 140px;
+    position: absolute;
+    bottom: 320px;
+    left: 210px;
+}
+
+.cookie__sub {
+    font-size: 14px;
+    padding: 15px 0 0 15px;
+    margin: 0;
+}
+
+.cookie__h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.cookie__elk-icon {
+    width: 85px;
+    position: absolute;
+    top: 5px;
+    left: 240px;
+}
+
+.cookie__pcopy1 {
+    font-size: 10px;
+    line-height: 15px;
+    color: #adb1b5;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+
+.cookie__sub2-container {
+    border: 2px solid #d1d3da;
+    border-radius: 10px;
+    width: 320px;
+    position: absolute;
+    top: 140px;
+    left: 14px;
+}
+
+.cookie__sub2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0 0 10px;
+}
+
+.cookie__pcopy2 {
+    font-size: 10px;
+    line-height: 15px;
+    color: #adb1b5;
+    padding: 0 0 0 10px;
+}
+
+.cookie__consent-container {
+    position: relative;
+}
+
+.cookie__pcopy {
+    font-size: 10px;
+    color: #b5b7b9;
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+    border-bottom: 1px solid #b6b8be;
+}
+
+.cookie__button-container {
+    position: relative;
+}
+
+.cookie_boldp {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 50px;
+    left: 75px;
+}
+
+.cookie__btn-navy {
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 35px;
+    left: 200px;
+    background-color: #133a69;
+    padding: 10px 80px 10px 80px;
+}
+
+.cookie__close-container {
+    position: relative;
+}
+
+.cookie__btn-close {
+    width: 125px;
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+}
+
+
+/*------------Agenda popup-------*/
+
+
+.agenda__container {
+    position: relative;
+
+}
+
+.popup__agendaimg {
+    width: 350px;
+}
+
+#btn-pop-x {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    color: #fdb273;
+}
+
+.popup_h1 {
+    font-family: var(--font-sans-serif);
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    color: #fdb273;
+}
+
+.popup_img {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+
+.popup_text {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    font-size: 14px;
+    color: #133a69;
+    line-height: 18px;
+    position: absolute;
+    top: 200px;
+    left: 25px;
+}
+
+.popup_btn-orange {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 20px 100px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2rem;
+    position: absolute;
+    top: 290px;
+    left: 10px;
+}
