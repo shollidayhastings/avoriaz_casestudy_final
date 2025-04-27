@@ -1398,7 +1398,7 @@ a.navhero-extras:active {
     font-weight: bolder;
 }
 
-/*------------feature nav-------*/
+/*------------nav feature-------*/
 
 /*FEATURE 2*/
 
@@ -1407,7 +1407,12 @@ a.navhero-extras:active {
     margin: 2rem;
 }
 
-.feature__nav-container {
+.nav-feature__container {
+    position: relative;
+    margin: 2rem;
+}
+
+.nav__feature-container {
     position: relative;
     margin: 2rem;
 }
@@ -1484,4 +1489,146 @@ a.navhero-extras:active {
     position: absolute;
     top: 420px;
     left: 800px;
+}
+
+/*-------------Features Section--------*/
+
+/* Home page */
+
+
+
+.section__features {
+    font-family: var(--font-sans-serif);
+    font-weight: 200;
+    border-bottom: 1px solid #adb1b5;
+    color: #b6b8be;
+    padding: 0 15px;
+    margin: 20px;
+}
+
+
+.feature__home-screen1 {
+    width: 900px;
+    margin: 2rem;
+}
+
+.header_hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+.header_img {
+    width: 100%;
+}
+
+.logo-lockup {
+    margin: .5rem;
+}
+
+.navbar_hero-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar_hero-list-b {
+    font-family: var(--font-sans-serif);
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+/*Hero Nav Links*/
+
+a.nav-links:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.nav-links:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.nav-links:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.nav-links:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
+
+/*Hero Extras Nav Links*/
+
+a.navhero-extra:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.navhero-extras:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
+
+/*---------------OPENING DAY SECTION-------*/
+
+.feature__1opening-container {
+    position: relative;
+}
+
+.feature__open1 {
+    width: 900px;
+    margin: 2rem;
+    position: absoute;
+    top: 0;
+    left: 0;
+}
+
+.opening-orange {
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    color: #fdb273;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.date-black {
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    margin: 0;
 }
