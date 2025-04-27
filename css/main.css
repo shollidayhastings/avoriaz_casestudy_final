@@ -1306,7 +1306,7 @@ a:active {
     position: relative;
 }
 
-.header_hero-container {
+.header-b_hero-container {
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -1325,7 +1325,7 @@ a:active {
     margin: .5rem;
 }
 
-.navbar_hero-container {
+.navbar-b_hero-container {
     display: flex;
     justify-content: flex-end;
     align-content: center;
@@ -1336,7 +1336,7 @@ a:active {
     left: 0;
 }
 
-.navbar_hero-list-b {
+.navbar-b_hero-list-b {
     font-family: var(--font-sans-serif);
     color: white;
     font-size: 15px;
@@ -1444,7 +1444,6 @@ a.navhero-extras:active {
     width: 100%;
     padding: 1rem;
     position: absolute;
-
 }
 
 .navbar_hero-list-b {
@@ -1464,8 +1463,198 @@ a.navhero-extras:active {
 /*----pop ups on home page----*/
 .home__icon-popup_container {
     position: absolute;
-    top: 50px;
+    top: 200px;
+    left: 50px;
+}
+
+.icon-btn_home {
+    font-size: 10px;
+}
+
+.icon-btn_dot {
+    font-size: 10px;
+
+}
+
+/* home-button lockup*/
+
+
+.home-btn__lockup-container {
+    position: absolute;
+    top: 400px;
     left: 0;
+}
+
+.home-btn__home-orange1 {
+    font-family: var(--font-sans-serif);
+    color: white;
+    background: #fdb273;
+    padding: 9px 70px;
+    font-size: 10px;
+    line-height: 5px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0 0 2rem;
+    position: relative;
+}
+
+.home-btn__home-text {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    line-height: 4px;
+}
+
+#home-btn__hotel-icon {
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.home-btn__home-textlg {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    line-height: 15px;
+}
+
+.home-btn__home-gray2 {
+    font-family: var(--font-sans-serif);
+    color: #133a69;
+    background: white;
+    padding: 10px 70px;
+    font-size: 10px;
+    line-height: 6px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 0 5rem;
+    position: relative;
+    margin: 0 0 0 2rem;
+}
+
+.home-btn__home-text-pass {
+    font-weight: 600;
+    font-size: 16px;
+    color: #133a69;
+    line-height: 4px;
+}
+
+#home-btn__card-icon {
+    font-size: 1.2rem;
+    color: #133a69;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
+
+#home-btn__arrow-card-icon {
+    font-size: 1.1rem;
+    color: #133a69;
+    position: absolute;
+    top: 28px;
+    left: 200px;
+}
+
+.home-btn__home-blue3 {
+    font-family: var(--font-sans-serif);
+    color: white;
+    background: #133a69;
+    padding: 10px 61px;
+    font-size: 10px;
+    line-height: 2px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 0 5rem;
+    position: relative;
+    margin: 0 0 0 2rem;
+}
+
+#home-btn__map-icon {
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+#home-btn__arrow-map-icon {
+    font-size: 1.1rem;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 200px;
+}
+
+/*------------Agenda popup-------*/
+
+
+.home-agenda__container {
+    position: absolute;
+    top: 200px;
+    left: 730px;
+
+}
+
+.home-popup__agendaimg {
+    width: 350px;
+}
+
+#home-btn-pop-x {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    color: #fdb273;
+}
+
+.home-popup_h1 {
+    font-family: var(--font-sans-serif);
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    color: #fdb273;
+}
+
+.home-popup_img {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+
+.home-popup_text {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    font-size: 14px;
+    color: #133a69;
+    line-height: 18px;
+    position: absolute;
+    top: 200px;
+    left: 25px;
+}
+
+.home-popup_btn-orange {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 20px 100px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2rem;
+    position: absolute;
+    top: 290px;
+    left: 10px;
 }
 
 /*Hero Nav Links*/
@@ -1637,108 +1826,4 @@ a.navhero-extras:active {
     position: absolute;
     top: 420px;
     left: 800px;
-}
-
-/* FEATURE 3*/
-
-.home__3mountain-container {
-    position: relative;
-    margin: 2rem;
-}
-
-.feature3__backgroundimage {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.feature3__headline {
-    color: black;
-    font-size: 3.4rem;
-    font-weight: 700;
-    position: absolute;
-    top: 33rem;
-    left: 12rem;
-}
-
-.feature3__subline {
-    color: #fdb273;
-    font-size: 1.2rem;
-    position: absolute;
-    top: 38rem;
-    left: 26rem;
-}
-
-.feature3__activities {
-    font-size: .5rem;
-    font-weight: 500;
-    writing-mode: sideways-lr;
-    position: absolute;
-    top: 40rem;
-    left: 5rem;
-}
-
-.feature3__line {
-    font-size: .6rem;
-    font-weight: 500;
-    writing-mode: sideways-lr;
-    position: absolute;
-    top: 45rem;
-    left: 4.5rem;
-}
-
-.feature3__btn_arrow {
-    background-color: white;
-    color: rgb(45, 93, 112);
-    border: 2px solid rgb(45, 93, 112);
-    border-radius: 50%;
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: x-small;
-    position: absolute;
-    top: 52rem;
-    left: 4.5rem;
-}
-
-.feature3__mountainimg {
-    max-width: 450px;
-    position: absolute;
-    top: 42rem;
-    left: 10rem;
-}
-
-.icon-container {
-    position: absolute;
-    top: 48rem;
-    left: 36rem;
-}
-
-.icon__number {
-    font-size: .7rem;
-    color: #fdb273;
-    display: inline-block;
-    margin: 0 .3rem;
-}
-
-.icon__text {
-    font-size: .7rem;
-    color: #56617a;
-    display: inline-block;
-    margin: .3rem;
-}
-
-.feature3__orange-do {
-    font-family: var(--font-sans-serif);
-    font-weight: bold;
-    border: none;
-    color: white;
-    background: #fdb273;
-    padding: 8px 30px;
-    font-size: 7px;
-    cursor: pointer;
-    display: inline-block;
-    margin: 20px 0 0 5px;
-    position: absolute;
 }
