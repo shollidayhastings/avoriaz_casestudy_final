@@ -1397,3 +1397,91 @@ a.navhero-extras:active {
     color: #fdb273;
     font-weight: bolder;
 }
+
+/*------------feature nav-------*/
+
+/*FEATURE 2*/
+
+.feature__screenimg2 {
+    width: 900px;
+    margin: 2rem;
+}
+
+.feature__nav-container {
+    position: relative;
+    margin: 2rem;
+}
+
+.headline__feature-img1 {
+    width: 270px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.headline__feature-img2 {
+    width: 150px;
+    height: 400px;
+    position: absolute;
+    left: 800px;
+    top: 0;
+}
+
+.headline__feature-text-orange {
+    font-family: var(--font-sans-serif);
+    color: #fdb273;
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    left: 230px;
+}
+
+.headline__feature-text-black {
+    font-family: var(--font-sans-serif);
+    color: black;
+    font-size: 5rem;
+    position: absolute;
+    top: 75px;
+    left: 280px;
+}
+
+.headline__feature-text {
+    font-family: "Poppins";
+    font-style: italic;
+    font-size: .6rem;
+    line-height: .9rem;
+    color: #56617a;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+.headline__feature-button-orange {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 10px 42px;
+    font-size: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 375px;
+    left: 300px;
+}
+
+.feature__nav-icons {
+    width: 130px;
+    position: absolute;
+    top: 320px;
+    left: 680px;
+}
+
+.feature__nav-circles {
+    width: 100px;
+    position: absolute;
+    top: 420px;
+    left: 800px;
+}

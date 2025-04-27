@@ -97,7 +97,7 @@
 
     <main class="page__main-container">
         <!--HEADER-->
-        <section class="header__container">
+        <section id="atoms" class="header__container">
             <h1 class="site-introh1">Avoriaz Ski resort<br>Web Design System</h1>
             <h3 class="site-introh3">This is a collection of components based on my study of the design system of
                 the<a href="https://www.avoriaz.com/en/"> Avioraz Ski Resort</a></h3>
@@ -114,7 +114,7 @@
         </section>
 
         <!--COLORS-->
-        <section>
+        <section id="colors">
             <h1 class="section__colors">COLORS</h1>
             <div class="section__colorblocks">
                 <p class="colorblock__orange">#fdb273<br>Orange</p>
@@ -124,7 +124,7 @@
         </section>
 
         <!--ICONS-->
-        <section>
+        <section id="icons">
             <h1 class="section__icons">ICONS</h1>
             <div>
                 <img class="icon__elk" src="./screenshots/avoriaz__icon-elkjpg.jpg" alt="elk icon">
@@ -244,7 +244,7 @@
 
         <!--BUTTONS-->
 
-        <section>
+        <section id="buttons">
             <h1 class="section__buttons">BUTTONS</h1>
 
             <div>
@@ -263,9 +263,9 @@
 
         <!--TYPEOGRAPHY-->
 
-        <h1 class="section__typography">TYPOGRAPHY</h1>
+        <h1 id="typography" class="section__typography">TYPOGRAPHY</h1>
 
-        <div>
+        <div id="headings">
             <img class="type__features" src="./screenshots/avoriaz__typetreatment-calendar-text.png"
                 alt="type__features">
             <img class="type__heading" src="./screenshots/avoriaz__text-treatment.png" alt="type__heading">
@@ -273,7 +273,7 @@
             <p class="section__screen-text">Screenshots from the website</p>
         </div>
 
-        <section>
+        <section id="font">
 
             <h3 class="font_poppins">Font: Poppins</h3>
 
@@ -292,7 +292,7 @@
                 <p class="bold700italic">Bold 700 italic</p>
                 <p class="extrabold800">ExtraBold 800</p>
                 <p class="extrabold800italic">ExtraBold 800 italic</p>
-            </div>
+            </div id="body">
             <p class="typo__caption">SemiBold 600 at 40px:</p>
             <p class="typo__caption-semibold600_caps">Alle Menschen sind frei und gleich an Würde und Rechten</p>
             <p class="typo__caption-regular">Regular 400 at 16px</p>
@@ -321,12 +321,12 @@
 
         <!---NAVIGATION------------>
 
-        <h1 class="section__navigation">NAVIGATION</h1>
+        <h1 id="navigation" class="section__navigation">NAVIGATION</h1>
         <section>
 
             <!---icon nav------------>
 
-            <div>
+            <div id="icon">
                 <p class="section__screen-text-title">Icon Navigation</p>
                 <img class="nav__icon-lockup" src="./screenshots/avoriaz__icon-sidebar-inactive.png" alt="icon lockup">
                 <p class="section__screen-text">Screenshots from the website:</p>
@@ -352,7 +352,7 @@
             </section>
 
             <!---button nav------------>
-            <div>
+            <div id="nav-btn-lockup">
                 <p class="section__screen-text-title">Button Lockup Navigation</p>
                 <img class="nav__btn-lockup" src="./screenshots/avariaz_btn-lockupjpg.jpg" alt="button lockup">
                 <p class="section__screen-text">Screenshots from the website:</p>
@@ -385,7 +385,7 @@
 
             <!--------------Popup nav------------>
 
-            <div>
+            <div id="popup-nav">
                 <p class="section__screen-text-title">Pop Up Navigation</p>
                 <img class="nav__cookie-pop" src="./screenshots/avoriaz__cookie-popup.jpg" alt="cookie popup">
                 <img class="nav__agenda-pop" src="./screenshots/avoriaz__agenda-popup-window.jpg" alt="agenda popup">
@@ -451,7 +451,7 @@
             <!------------------HEADER SECTION---------->
 
 
-            <div>
+            <div id="header1">
                 <p class="section__screen-text-title">Headers</p>
                 <img class="header__white" src="./screenshots/avoriaz__header_white.png" alt="white header">
                 <img class="header__onback" src="./screenshots/avoriaz__header.png" alt="header on background">
@@ -475,7 +475,7 @@
             </section>
 
             <article class="header-b__container">
-                <div>
+                <div id="header2">
                     <img class="header_img" src="../images/feature_hotels.jpg">
                 </div>
                 <section class="header_hero">
@@ -497,14 +497,49 @@
                     </div>
                 </section>
             </article>
-
-
         </section>
+        <!----------------Feature nav---------->
+        <section>
+            <div id="feature-nav">
+                <p class="section__screen-text-title">Feature Navigations</p>
+                <img class="feature__screenimg2" src="./screenshots/avoriaz_feature2.jpg" alt="pedestrian resort">
+                <p class="section__screen-text">Screenshots from the website:</p>
+            </div>
+
+
+            <div>
+                <div class="feature__nav-container">
+                    <img class="headline__feature-img" src="../components/avoriaz_screenshots/avoriaz_feature2.jpg"
+                        alt="pedestrian resort">
+
+                    <img class="headline__feature-img1" src="./images/feature_pedestrianresort.jpg"
+                        alt="hotel with snow">
+
+                    <img class="headline__feature-img2" src="./images/feature_pedestrianresort2.jpg"
+                        alt="mountain resort">
+                    <h1 class="headline__feature-text-orange">PEDESTRIAN-</h1>
+                    <h1 class="headline__feature-text-black">RESORT</h1>
+
+                    <p class="headline__feature-text">
+                        In Avoriaz 1800, the magic begins as soon<br>
+                        as you arrive, because here, the streets are<br>
+                        unlike any other. They transform into real<br>
+                        ski slopes where a unique atmosphere<br>
+                        reigns. Experienced skiers and beginners<br>
+                        share the space with majestic horse-drawn
+                    </p>
+                    <button class="headline__feature-button-orange">DISCOVER</button>
+                    <img class="feature__nav-icons" src="./images/feature_arrow-icons.svg" alt="icons for nav">
+                    <img class="feature__nav-circles" src="./images/nav__slide-circles.svg" alt="nav slide circles">
+                </div>
+            </div>
+        </section>
+
+        <!----------------FEATURES SECTION---------->
+
 
 
     </main>
-
-
 
 </body>
 
