@@ -2861,3 +2861,39 @@ a.navhero-extras:active {
     top: 36rem;
     left: 34rem;
 }
+
+/*---------footer------------*/
+
+.home-feature10_container {
+    width: 950px;
+    display: block;
+    position: relative;
+}
+
+.home-footer__srcimg {
+    width: 900px;
+    margin: 2rem;
+}
+
+.home-footer__container {
+    width: 900px;
+    background-color: #0e2d53;
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+    margin: 2rem;
+}
+
+.home-footer__logo {
+    width: 55px;
+    height: fit-content;
+    padding: 10px;
+    align-items: center;
+}
+
+.home-footer__copyright {
+    font-family: "poppins", sans-serif;
+    font-size: .9rem;
+    color: #133a69;
+    margin: 2rem;
+}
