@@ -2383,3 +2383,155 @@ a.navhero-extras:active {
     top: 27.5rem;
     left: 28.5rem;
 }
+
+/*-------FEATURE 7 social media---------*/
+
+.home-feature8_container {
+    width: 950px;
+    display: block;
+    position: relative;
+}
+
+.home-feature__screenimg8 {
+    width: 900px;
+    margin: 2rem;
+}
+
+.home-social__container {
+    width: 950px;
+    display: block;
+    position: relative;
+}
+
+.home-social__h2 {
+    font-family: var(--font-sans-serif);
+    font-weight: 700;
+    color: #fdb273;
+    font-size: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 23rem;
+}
+
+.home-social__h1 {
+    font-family: var(--font-sans-serif);
+    font-weight: 700;
+    color: #fdb273;
+    font-size: 6rem;
+    position: absolute;
+    top: 2rem;
+    left: 15rem;
+}
+
+#home-btn_fb {
+    background-color: white;
+    color: #fdb273;
+    border: 2px solid #fcd2b0;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 15rem;
+    left: 18rem;
+}
+
+#home-btn_ig {
+    background-color: white;
+    color: #fdb273;
+    border: 2px solid #fcd2b0;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 15rem;
+    left: 23rem;
+}
+
+#home-btn_twit {
+    background-color: white;
+    color: #fdb273;
+    border: 2px solid #fcd2b0;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 15rem;
+    left: 28rem;
+}
+
+#home-btn_youtube {
+    background-color: white;
+    color: #fdb273;
+    border: 2px solid #fcd2b0;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 15rem;
+    left: 33rem;
+}
+
+#home-btn_p {
+    background-color: white;
+    color: #fdb273;
+    border: 2px solid #fcd2b0;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 15rem;
+    left: 38rem;
+}
+
+#home-btn_tik {
+    background-color: white;
+    color: #fdb273;
+    border: 2px solid #fcd2b0;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 15rem;
+    left: 43rem;
+}
+
+.home-social__h1-bk {
+    font-family: var(--font-sans-serif);
+    font-weight: 700;
+    color: black;
+    font-size: 6rem;
+    position: absolute;
+    top: 16rem;
+    left: 27rem;
+}
+
+.home-social-btn_hand {
+    width: 4rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+}
