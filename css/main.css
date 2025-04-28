@@ -1882,6 +1882,25 @@ a.navhero-extras:active {
     position: relative;
 }
 
+.home-feature3-headline {
+    font-family: var(--font-sans-serif);
+    font-size: 4rem;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 18rem;
+}
+
+.home-feature3-sub {
+    font-family: var(--font-sans-serif);
+    font-size: 1.5rem;
+    color: #fdb273;
+    font-weight: 700;
+    position: absolute;
+    top: 5.5rem;
+    left: 34rem;
+}
+
 .home-feature3__activities {
     font-family: var(--font-sans-serif);
     font-size: .8rem;
@@ -1921,4 +1940,49 @@ a.navhero-extras:active {
     position: absolute;
     top: 11rem;
     left: 16rem;
+}
+
+.home-icon-container {
+    position: absolute;
+    top: 17rem;
+    left: 45rem;
+}
+
+.home-icon__number {
+    font-family: var(--font-sans-serif);
+    font-weight: 500;
+    font-size: .8rem;
+    color: #fdb273;
+    display: inline-block;
+    margin: 0 .3rem;
+}
+
+.home-icon__text {
+    font-family: var(--font-sans-serif);
+    font-weight: 500;
+    font-size: .7rem;
+    color: #56617a;
+    display: inline-block;
+    margin: .3rem;
+}
+
+.home-feature3__btn-orange {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 8px 30px;
+    font-size: 7px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 0 0 5px;
+    position: absolute;
+    top: 6.8rem;
+}
+
+.home-feature3__slide-icons {
+    width: 7rem;
+    margin: 73px 0 0 5px;
+
 }
