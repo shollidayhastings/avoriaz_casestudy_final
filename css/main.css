@@ -1463,17 +1463,40 @@ a.navhero-extras:active {
 /*----pop ups on home page----*/
 .home__icon-popup_container {
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 50px;
 }
 
-.icon-btn_home {
-    font-size: 10px;
+.home-nav__icon-lockup {
+    width: 80%;
 }
 
-.icon-btn_dot {
-    font-size: 10px;
+.home-icon-btn_home {
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(45, 93, 112);
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin: 5px;
+}
 
+.home-icon-btn_dot {
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(45, 93, 112);
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin: 5px;
 }
 
 /* home-button lockup*/
