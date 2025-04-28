@@ -1768,13 +1768,19 @@ a.navhero-extras:active {
 }
 
 .nav-feature__container {
-    position: relative;
+    width: 1000px;
+    background-color: white;
     margin: 2rem;
+    display: block;
+    position: relative;
 }
 
-.nav__feature-container {
-    position: relative;
+.home-feature2__container {
+    width: 1000px;
+    height: 500px;
     margin: 2rem;
+    position: relative;
+    display: block;
 }
 
 .headline__feature-img1 {
@@ -1849,4 +1855,70 @@ a.navhero-extras:active {
     position: absolute;
     top: 420px;
     left: 800px;
+}
+
+/*-------feature 3 Mountains for All---------*/
+
+.home-feature3_container {
+    width: 900px;
+    height: 500px;
+    margin: 1rem 2rem;
+    display: block;
+    position: relative;
+}
+
+.feature__screenimg3 {
+    width: 900px;
+    display: block;
+    margin: 1rem 2rem;
+}
+
+.home-feature3__backimg {
+    width: 900px;
+    margin: 1rem 4rem;
+}
+
+.home-feature3-activities_container {
+    position: relative;
+}
+
+.home-feature3__activities {
+    font-family: var(--font-sans-serif);
+    font-size: .8rem;
+    font-weight: 500;
+    writing-mode: sideways-lr;
+    position: absolute;
+    top: 6rem;
+    left: 11rem;
+}
+
+.home-feature3__line {
+    font-size: .6rem;
+    font-weight: 500;
+    writing-mode: sideways-lr;
+    position: absolute;
+    top: 12.5rem;
+    left: 11rem;
+}
+
+.home-feature3__btn_arrow {
+    width: 130px;
+    position: absolute;
+    top: 19rem;
+    left: 8.5rem;
+
+}
+
+.home-feature3__handicon {
+    width: 3rem;
+    position: absolute;
+    top: 27rem;
+    left: 4rem;
+}
+
+.home-feature3__smimg {
+    width: 28rem;
+    position: absolute;
+    top: 11rem;
+    left: 16rem;
 }
