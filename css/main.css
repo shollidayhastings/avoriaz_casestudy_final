@@ -30,6 +30,7 @@ html {
 
 .sidebar__nav-container {
     display: block;
+    position: sticky;
     background-color: aliceblue;
     border-right: 1px solid #b5b7b9;
 }
@@ -2166,7 +2167,7 @@ a.navhero-extras:active {
     left: 50rem;
 }
 
-/*-------FEATURE 6 Deals---------*/
+/*-------FEATURE 6 events---------*/
 
 .home-feature6_container {
     width: 950px;
@@ -2889,11 +2890,4 @@ a.navhero-extras:active {
     height: fit-content;
     padding: 10px;
     align-items: center;
-}
-
-.home-footer__copyright {
-    font-family: "poppins", sans-serif;
-    font-size: .9rem;
-    color: #133a69;
-    margin: 2rem;
 }
